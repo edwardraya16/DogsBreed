@@ -2,7 +2,8 @@
 
 import streamlit as st
 import os
-from tensorflow.keras.models import load_model
+from tensorflow import keras
+from keras.models import load_model
 from PIL import Image
 import numpy as np
 from skimage import transform
