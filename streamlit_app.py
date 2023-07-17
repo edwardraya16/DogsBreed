@@ -1,7 +1,5 @@
 # pip install tensorflow
 
-import cv2
-import pickle
 import streamlit as st
 import tensorflow as tf
 from tensorflow.keras import layers
